@@ -1,25 +1,54 @@
-# root-alshara
+```markdown
+# RootMe
 
-# Root Al-Sharabi
+This tool will root your Termux without superuser; no root required. Note: it's not an absolute root; it is a mini Kali Linux OS running virtually on Termux.
 
-## Description
+## Boot2Root
 
-This repository contains command scripts and configurations for setting up and managing a Termux environment on Android devices. It is designed to provide users with an easy way to install essential packages and tools for development and productivity.
+```
+██████╗  ██████╗  ██████╗ ████████╗ ██████╗  ██████╗  ██████╗  ██████╗ ████████╗
+██╔══██╗██╔═══██╗██╔═══██╗╚══██╔══╝ ╚════██╗ ██╔══██╗██╔═══██╗██╔═══██╗╚══██╔══╝
+██████╔╝██║   ██║██║   ██║   ██║     █████╔╝ ██████╔╝██║   ██║██║   ██║   ██║
+██╔══██╗██║   ██║██║   ██║   ██║    ██╔═══╝  ██╔══██╗██║   ██║██║   ██║   ██║
+██████╔╝╚██████╔╝╚██████╔╝   ██║    ███████╗ ██║  ██║╚██████╔╝╚██████╔╝   ██║
+╚═════╝  ╚═════╝  ╚═════╝    ╚═╝    ╚══════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝    ╚═╝
+```
 
-## Features
+## JustRoot
 
-• Installation of essential packages for Termux.
-• Scripts for automated setup.
-• User-friendly commands for common tasks.
+```
+██╗██╗   ██╗███████╗████████╗    ██████╗  ██████╗  ██████╗ ████████╗
+██║██║   ██║██╔════╝╚══██╔══╝    ██╔══██╗██╔═══██╗██╔═══██╗╚══██╔══╝
+██║██║   ██║███████╗   ██║       ██████╔╝██║   ██║██║   ██║   ██║
+██║██║   ██║╚════██║   ██║       ██╔══██╗██║   ██║██║   ██║   ██║
+╚█████╔╝╚██████╔╝███████║   ██║       ██║  ██║╚██████╔╝╚██████╔╝   ██║
+ ╚════╝  ╚═════╝ ╚══════╝   ╚═╝       ╚═╝  ╚═╝ ╚═════╝  ╚═════╝    ╚═╝
+```
 
-## Usage
+## Installation Instructions
 
-Clone this repository to your Termux environment and follow the instructions in the README file to get started.
+To use this tool, run the following commands:
 
-## Contributing
+```bash
+cd root-alsharabi
+chmod 777 rootme.sh
+bash rootme.sh
+```
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+### Choose your type of install:
 
-## License
+1) Boot2Root  
+2) JustRoot  
 
-This project is licensed under the ISC License. See the LICENSE file for more details.
+After running the tool, choose either option 1 or 2 and wait for the installation to complete. Thank you, Sadam Al-Sharabi.
+
+### Final Steps
+
+Now it will automatically install all requirements and root your Termux. Wait for a while; once it is successfully installed, just restart your Termux to become a root user or type `root` to gain root access.
+
+**Use this tool for educational purposes only. Stay legal!**
+
+**Note**: It's not an absolute root; it is a mini Kali Linux OS running virtually on Termux and is an isolated environment from your Termux, so you can trust this tool for installation. You can also run any tools that don't steal your data.
+
+![Image](content://com.android.chrome.FileProvider/images/screenshot/1607633501570-1146306159.jpg)
+```
